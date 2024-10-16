@@ -1,3 +1,4 @@
 16 Outubro 2024
 
-ps -eo pid,etime,comm | grep -E "(code|firefox|chrome)"
+ - comando 1: listar tudo usado na conta enquanto logado
+	ps -eo pid,etime,comm | grep -E "(code|firefox|chrome)"
