@@ -12,4 +12,10 @@
  	python3 ajust.py
  - comando 5: coletar os users 
  	echo "$USER"
- - 
+ - comando 6: fazer o script rodar de maneira autonoma de tempo em tempo
+	crontab -e
+	#Adicionado o caminho para o script dentro do crontab
+	@reboot /caminho/completo/para/o/script/hello_loop.sh
+ - comando 7: rodar o script sempre que existir inicio de sessao
+ 	#raquear sistema criando um bash_profile
+	cat ~/.bash_profile
