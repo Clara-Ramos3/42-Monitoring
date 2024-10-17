@@ -10,3 +10,5 @@
  	python3 filter.py
  - comando 4: ajustando os dados buscados, em caso de abrir e fechar muitos processos
  	python3 ajust.py
+ - comando 5: coletar os users 
+ 	echo "$USER"

@@ -6,7 +6,7 @@ import time
 # Caminho para o banco de dados do histórico do Google Chrome
 chrome_db_path = os.path.expanduser("~/.config/google-chrome/Default/History")
 # Nome do arquivo que irá armazenar o histórico filtrado
-arquivo_saida = "chrome.txt"
+arquivo_saida = "history/chrome.txt"
 
 # Obtém a data de hoje
 hoje = datetime.datetime.now().strftime("%Y-%m-%d")
