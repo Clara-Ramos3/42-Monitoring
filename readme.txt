@@ -8,3 +8,5 @@
 
  - comando 3: rodar o arquivo python que filtra os semelhantes e busca o de maior valor
  	python3 filter.py
+ - comando 4: ajustando os dados buscados, em caso de abrir e fechar muitos processos
+ 	python3 ajust.py
