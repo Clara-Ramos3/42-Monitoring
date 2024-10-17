@@ -1,8 +1,8 @@
 #!/bin/bash
 
 HOJE=$(date '+%d')
-OUTPUT_FILE="$HOJE.txt"
-TEMP_FILE="temp_processos.txt"
+OUTPUT_FILE="days/$HOJE.txt"
+TEMP_FILE="days/temp_processos.txt"
 
 # Executa o comando e redireciona a saída para o arquivo 'processos.txt'
  ps -eo pid,etime,comm | grep -E "(code|firefox|chrome|terminal)" > $TEMP_FILE

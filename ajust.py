@@ -5,7 +5,7 @@ import datetime
 
 # Nome do arquivo que contém os processos antigos
 hoje = datetime.datetime.now().strftime("%d")
-arquivo = f"{hoje}.txt"
+arquivo = f"days/{hoje}.txt"
 
 # Função para gerar um número aleatório único
 def gerar_numero_randomico():

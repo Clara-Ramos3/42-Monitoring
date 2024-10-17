@@ -12,3 +12,4 @@
  	python3 ajust.py
  - comando 5: coletar os users 
  	echo "$USER"
+ - 

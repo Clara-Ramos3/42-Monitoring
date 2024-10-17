@@ -2,7 +2,7 @@ import datetime  # Adicione esta linha para importar a biblioteca datetime
 
 # Nome do arquivo que contém os processos
 hoje = datetime.datetime.now().strftime("%d")  # Apenas o dia do mês
-arquivo = f"{hoje}.txt"
+arquivo = f"days/{hoje}.txt"
 
 # Dicionário para armazenar os maiores processos
 maior_processos = {}
